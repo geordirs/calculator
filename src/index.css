@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #2F4F4F 0%, #696969 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    padding-top: 20px;
+    user-select: none;
+}
+
+.calc {
+ border: dashed;
+}
+
+
